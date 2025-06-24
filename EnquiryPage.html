@@ -1,0 +1,93 @@
+<html>
+    <head> 
+            <title>Nissan Z x LowGlow</title>
+            <link rel="stylesheet" href="stylesheet.css">
+            <script src="projectjs.js"></script>
+    </head>
+    <body>
+
+        <div id="FormDiv" style="position: absolute;">
+            <form id="myForm">
+                <legend style="color: rgb(176, 57, 223); text-shadow: 5px 5px black;padding-bottom: 10px;">
+                    Get Inquiry
+                </legend>
+
+                <fieldset style="background-color: rgb(70, 129, 218, 0.3); justify-content: center; vertical-align: middle;">
+                    <table style="justify-content: center; vertical-align: middle; align-items: center;">
+
+                        <tr>
+                            <td><label>Enter Name</label></td>
+                            <td><input type="text" id="nameinp" style="opacity: 0.3;"><span id="err1"></span></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><label>Enter Email</label></td>
+                            <td><input type="text" id="emailinp" style="opacity: 0.3;"><span id="err2"></span></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><label>Enter Contact</label></td>
+                            <td><input type="number" id="continp" style="opacity: 0.3;"><span id="err3"></span></td>
+                        </tr>
+                    
+                        <tr>
+                            <td><label>Enter Query</label></td>
+                            <td><textarea id="queryinp" rows="5" cols="50" style="opacity: 0.3;"></textarea><br><span id="err4"></span></td>
+                        </tr>
+
+                        <tr>
+                            <td><button type="submit" id="buti">Submit</button></td>
+                            <td><button type="reset" id="buti">Reset</button></td>
+                        </tr>
+
+                    </table>
+                    
+                </fieldset>
+
+            </form>
+        </div>
+        
+        <div class ="hero" id="101">
+
+            <video src="back.mp4" loop autoplay muted id="video-bg"></video>
+        
+            <a href="Page.html"><header id="header">
+                <img src="nissan.png" alt="Nissan Logo" class="logo">
+                <img src="6365662.png" class="logoMid">
+                <img src="lowglowlogo_white.avif" class ="logo2">
+            </header></a>
+
+            <nav>
+                <div class="navHolder">
+                    <h3 class="navhead head1" onclick="head1click(),false;">Details</h3>
+                    <h3 class="navhead head2" onclick="head2click(),false;">SPECS</h3>
+                    <h3 class="navhead head3" onclick="head3click(),false;">POWER FIGURES</h3>
+                </div>   
+            </nav>
+
+            <section>
+                <div id="contentbox">
+
+                </div>
+            </section>
+
+            <div class="MuteButton">
+                <audio src="webAud.mp3" autoplay id="audio-bg"></audio>
+                <button onclick="playaudio(),false;" id="buti">Play</button>
+                <button onclick="pauseaudio(),false;" id="buti">Pause</button>
+            </div>
+
+             <div class="footer" style="display: flex; flex-direction: row;">
+            
+                <img src="gear.gif">
+                <div>
+                        <p>© 2025 NISSAN Z x LOWGLOW Page</p>
+                        <p>Created by ABDUR REHMAN</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </body>
+</html>

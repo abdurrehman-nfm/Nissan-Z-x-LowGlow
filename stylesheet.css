@@ -1,0 +1,165 @@
+#video-bg{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 1fr;
+    height: 1fr;
+    z-index: -100;
+    
+}
+
+
+.MuteButton{
+    padding-left: 1580px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.logo{
+    height: 85px;
+    width: 100px;
+}
+
+.logo2{
+    height: 75px;
+    width: 160px;
+}
+
+.logoMid{
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navhead{
+    display: inline;
+    font-family: 'CustomFont';
+    text-shadow: 5px 5px black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+    opacity: 1;
+    
+}
+
+.navholder{
+    background-color: rgb(176, 57, 223, 0.4);   
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.navhead:hover{
+    text-decoration: underline white;
+    color: rgb(70, 129, 218);
+}
+
+nav{
+    padding-top: 10px;
+    padding-left: 1340px;
+}
+
+#contentbox{
+    font-family: 'CustomFont';
+    padding-left: 1360px;
+}
+
+.footer{
+    font-family: 'CustomFont';
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 5px 5px 2px black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 18px;
+    width: 1fr;
+    text-align: center;
+}
+
+#absodivcont{
+    padding-top: 20px;
+}
+
+#indiviscont{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight:500;    
+    color: rgb(212, 200, 174) ;
+}
+
+b{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#buti{
+    font-family: 'CustomFont';
+    background-color: rgb(176, 57, 223, 0.4);
+}
+
+section{
+    width: 1fr;
+    height: 670px;
+}
+
+#absodiv{
+    padding-top: 310px;
+    padding-left: 80px;
+    font-family: 'CustomFont';
+}
+
+#FormDiv{
+    font-family: 'CustomFont';
+    padding-left: 75px;
+    padding-top: 200px;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('Alphacorsa\ Personal\ Use\ Italic.ttf') format('truetype');
+}
+
+
+@media (max-width: 768px) {
+  
+    nav{
+        padding-left: 0;
+        padding-top: 10px;
+    }
+    
+    .navholder{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .navhead{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .hero{
+        padding-top: 20px;
+    }
+    #contentbox{
+    font-family: 'CustomFont';
+    padding-left: 0px;
+}
+}

@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Nissan Z x LowGlow</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="projectjs.js"></script>
+
+
+    </head>
+    <body>
+
+        
+        <div style="position: absolute;" id="absodiv">
+            <div id="absodivcont" style="opacity: 0;">
+                <div id="indiviscont"><b>Wide-Body kit:</b> Liberty Walks</div>
+                <div id="indiviscont"><b>Under-Glow Lights:</b> Low Glow</div>            
+                <div id="indiviscont"><b>Vehicle Model:</b> Nissan Fair-Lady Z</div>            
+                <div id="indiviscont"><b>Rims:</b> BBS Deep Dish</div>
+                <div id="indiviscont"><b>Engine:</b> RB-26 High Reving</div>
+                <div id="indiviscont"><b>Exhaust:</b> Akrapovic High Freq.</div>
+                <div id="indiviscont"><b>Steering Wheel:</b> Momo Auto Mart</div>            
+                <div id="indiviscont" style="padding-bottom: 20px;"><b>Tints:</b> Los Santos Custom</div>
+            </div>
+            <button id="buti" onclick="showdetails()">Show Details</button>
+            <button id="buti" onclick="hidedetails()">Hide Details</button>
+            <br>
+            <a href="EnquiryPage.html" style="padding-left: 75px;"><button id="buti">Get Enquiry</button></a>
+            
+        </div>  
+
+        <div class="hero" id="101">
+
+             <video src="back.mp4" loop autoplay muted id="video-bg"></video>
+        
+            <a href="Page.html"><header id="header">
+                <img src="nissan.png" alt="Nissan Logo" class="logo">
+                <img src="6365662.png" class="logoMid">
+                <img src="lowglowlogo_white.avif" class ="logo2">
+            </header></a>
+
+            <nav>
+                <div class="navHolder">
+                    <h3 class="navhead head1" onclick="head1click(),false;">Details</h3>
+                    <h3 class="navhead head2" onclick="head2click(),false;">SPECS</h3>
+                    <h3 class="navhead head3" onclick="head3click(),false;">POWER FIGURES</h3>
+                </div>   
+            </nav>
+
+            <section>
+                <div id="contentbox">
+
+                </div>
+            </section>
+
+            <div class="MuteButton">
+                <audio src="webAud.mp3" autoplay id="audio-bg"></audio>
+                <button onclick="playaudio(),false;" id="buti">Play</button>
+                <button onclick="pauseaudio(),false;" id="buti">Pause</button>
+            </div>
+
+            <div class="footer" style="display: flex; flex-direction: row;">
+            
+                <img src="gear.gif">
+                <div>
+                        <p>© 2025 NISSAN Z x LOWGLOW Page</p>
+                        <p>Created by ABDUR REHMAN</p>
+                </div>
+
+            </div>
+
+        </div>
+       
+    </body>
+</html>
